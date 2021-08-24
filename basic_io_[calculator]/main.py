@@ -3,7 +3,7 @@ import os.path
 # os.path.abspath(__file__)
 print("Welcome to a simple calculator in Python 3.9!")
 print("This calculator is a simple 4 function lad with the ability to read and write to a file")
-print("Select option [F]ile/[S]tandard: ", end='')
+print("Select option [F]ile/[S]tandard: ", end="")
 # mode = ''
 while True:
     mode = input()
@@ -15,7 +15,7 @@ while True:
         print("Using standard mode.")
         break
     else:
-        print("Please enter a valid option.\n[F]ile/[S]tandard: ", end='')
+        print("Please enter a valid option.\n[F]ile/[S]tandard: ", end="")
 
 if mode == "f":
     from file import do_file_math
