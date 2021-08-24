@@ -7,17 +7,17 @@ print("Select option [F]ile/[S]tandard: ", end='')
 # mode = ''
 while True:
     mode = input()
-    if mode == 'f' or mode == 'F':
-        mode = 'f'
+    if mode == "f" or mode == "F":
+        mode = "f"
         print("Using file mode.")
         break
-    elif mode == 's' or mode == 'S':
+    elif mode == "s" or mode == "S":
         print("Using standard mode.")
         break
     else:
         print("Please enter a valid option.\n[F]ile/[S]tandard: ", end='')
 
-if mode == 'f':
+if mode == "f":
     from file import do_file_math
     print("Enter file name: ", end="")
     while True:
